@@ -1,8 +1,6 @@
 # Project 4: Map My World
 
-An application of [rtabmap-ros](http://wiki.ros.org/rtabmap_ros) package for 
-simultaneous localization and mapping (SLAM) of a mobile robot. 
-This project is part of Udacity Robotics Software Engineer Nanodegree.
+This project is part of Udacity Robotics Software Engineer Nanodegree.I used my robot and the world from previous project. Added depth camera to the robot to use in mapping process. I used RTAB-Map package to create the map of the world.
 
 <table style="width:100%">
   <tr>
@@ -88,11 +86,8 @@ the resulted map with the localized trajectory of the robot in a database file
 
 8. You can download the database file from google drive and unzip the file before view. Git allows only 50mb this is 75mb after gzip also.
 ```
-$ rtabmap-databaseViewer https://drive.google.com/file/d/1qrmBHN3kinnNICSTAJvJRDiQkiQmnRTX/view?usp=sharing
+$ rtabmap-databaseViewer https://drive.google.com/file/d/1S6I586E-kMIG1uJ3Gn2phPxaYD7cNpdx/view?usp=sharing
 ```
 
-* Choose View -> Constraints View and Graph View
-* To see 3D Map, Choose Edit -> View 3D Map ...
-    
-You could also open the database I already generated in this project. The number
-of loop closures can be found in [overview.png](images/overview.png).
+Shows generated 2D map and 3D loop closure example. Click to download database file of created map.    
+ [screenshot.png](images/screenshot.png).
