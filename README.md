@@ -35,10 +35,6 @@ This project is part of Udacity Robotics Software Engineer Nanodegree.
   </tr>
 </table>
 
-## Description
-The project consists of the following parts:
-1. A Gazebo world and a mobile robot from this [project](https://github.com/huuanhhuynguyen/RoboND-Go-Chase-It).
-2. ROS package: [rtabmap-ros](http://wiki.ros.org/rtabmap_ros)
 
 ## Prerequisites
 1. ROS (Melodic or Kinetic), Gazebo on Linux
@@ -50,7 +46,7 @@ The project consists of the following parts:
 1. Clone project and initialize a catkin workspace
 ```
 $ mkdir catkin_ws && cd catkin_ws
-$ git clone https://github.com/huuanhhuynguyen/RoboND-Map-My-World.git
+$ git clone https://github.com/ppujari/mapmyworld.git
 $ mv RoboND-Map-My-World src
 $ cd src && catkin_init_workspace
 ```
@@ -90,9 +86,9 @@ the robot to scan its surrounding environment. The rtabmap-ros package will save
 the resulted map with the localized trajectory of the robot in a database file 
 `~/.ros/rtabmap.db`.
 
-8. Open another terminal, and open up the database file using `rtabmap-databaseViewer`
+8. You can download the database file from google drive and unzip the file before view. Git allows only 50mb this is 75mb after gzip also.
 ```
-$ rtabmap-databaseViewer ~/.ros/rtabmap.db
+$ rtabmap-databaseViewer https://drive.google.com/file/d/1qrmBHN3kinnNICSTAJvJRDiQkiQmnRTX/view?usp=sharing
 ```
 
 * Choose View -> Constraints View and Graph View
